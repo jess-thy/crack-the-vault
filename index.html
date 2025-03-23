@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <title>Can You Crack The Vault?</title>
+  </head>
+  <body>
+    <div>
+      <p id="text">Can you crack the vault?</p>
+    </div>
+    <div>
+      <img
+        src="/img/vault-closed.svg"
+        alt="vault-closed"
+         id="vault-closed"
+        class="responsive-svg"
+      />
+    </div>
+    <div></div>
+      <img src="/img/vault-open.svg" alt="vault-open" id="vault-open" class="responsive-svg" />
+    </div>
+    <div id="code-input">
+      <input
+        type="number"
+        id="input1"
+        class="input"
+        placeholder="0"
+        min="0"
+        max="9"
+        maxlength="1"
+      />
+      <input
+        type="number"
+        id="input2"
+        class="input"
+        placeholder="0"
+        min="0"
+        max="9"
+        maxlength="1"
+      />
+      <input
+        type="number"
+        id="input3"
+        class="input"
+        placeholder="0"
+        min="0"
+        max="9"
+        maxlength="1"
+      />
+      <input
+        type="number"
+        id="input4"
+        class="input"
+        placeholder="0"
+        min="0"
+        max="9"
+        maxlength="1"
+      />
+    </div>
+    <div>
+      <img
+        src="/img/guess-button.svg"
+        alt="guess-button"
+        id="guess-button"
+        class="responsive-svg"
+      />
+      <img
+        src="/img/reset-button.svg"
+        alt="reset-button"
+        id="reset-button"
+        class="responsive-svg"
+      />
+    </div>
+  </body>
+</html>
